@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";function o(){import.meta.url,import("_").catch(()=>1),async function*(){}().next()}(function(){function e(t){if(t.origin!=="https://www.photoroom.com"||!t.data.imageData)return;const{imageData:a}=t.data;localStorage.setItem("forwardedValues",JSON.stringify(a)),window.parent.postMessage({success:!0},"*")}window.addEventListener("message",e)})();export{o as __vite_legacy_guard};
+//# sourceMappingURL=transferData-BPWfqiRi.js.map
